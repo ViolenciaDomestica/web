@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="introduccion.css">
+</head>
+
+<body>
+    <div id="N">
+        <nav class="navbar">
+            <div id="cabezera">
+                <img id="log" src="Logo/LOGOdis.png" alt="">
+                <div class="logo">VIOLENCIA DOMESTICA</div>
+             
+            </div>
+           
+             <ul class="nav-links">
+                <li>
+                    <a href="index.html">INICIO</a>
+                </li> 
+                <li>
+                    <a href="introduccion.html">INTRODUCCION</a>
+                </li> 
+               <li>
+                   <a href="problematica.html">PROBLEMATICA</a>
+               </li>  
+               <li>
+                   <a href="estadistica.html">ESTADISTICA</a>
+               </li>
+               <li>
+                   <a href="tipos.html">TIPOS DE VIOLENCIA</a>
+               </li>
+               <li>
+                   <a href="soluciones.html">SOLUCIONES</a>
+               </li>
+               
+             </ul>
+             <div class="burger">
+               <div class="line"></div>
+               <div class="line"></div>
+               <div class="line"></div>
+       
+             </div>
+           
+           </nav>
+           <script>
+               const burger=document.querySelector(".burger")
+               const navlinks=document.querySelector(".nav-links")
+               burger.addEventListener("click",()=>{
+                   navlinks.classList.toggle("active");
+               })
+           </script>
+       
+    </div>
+
+    <h1 id="h1">INTRODUCCION</h1>
+    <div class="caja">
+        <div class="contenido">
+            <p>
+                La violencia domestica es un fenomeno complejo y extendido en bolivia, con repercusiones significativas
+                en la vida de las personas y en la sociedad en su conjunto. En este informe, analizaremos en profundidad
+                la situacion domestica del pais, desde sus causas hasta sus impactos, asi como las medidas necesarias
+                parara abordarla de manera efectiva.
+            </p>
+        </div>
+        <div class="movie">
+            <video controls>
+                <source src="video/Video de WhatsApp 2024-03-17 a las 22.28.51_49747f5e.mp4">
+            </video>
+        </div>
+    </div>
+    <div class="footer">
+        © Luis Gustavo Matta Yana
+    </div>
+</body>
+
+</html>

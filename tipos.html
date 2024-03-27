@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tipos.css">
+    <title>Document</title>
+</head>
+<div id="N">
+    <nav class="navbar">
+        <div id="cabezera">
+            <img id="log" src="Logo/LOGOdis.png" alt="">
+            <div class="logo">VIOLENCIA DOMESTICA</div>
+         
+        </div>
+       
+         <ul class="nav-links">
+            <li>
+                <a href="index.html">INICIO</a>
+            </li> 
+            <li>
+                <a href="introduccion.html">INTRODUCCION</a>
+            </li> 
+           <li>
+               <a href="problematica.html">PROBLEMATICA</a>
+           </li>  
+           <li>
+               <a href="estadistica.html">ESTADISTICA</a>
+           </li>
+           <li>
+               <a href="tipos.html">TIPOS DE VIOLENCIA</a>
+           </li>
+           <li>
+               <a href="soluciones.html">SOLUCIONES</a>
+           </li>
+           
+         </ul>
+         <div class="burger">
+           <div class="line"></div>
+           <div class="line"></div>
+           <div class="line"></div>
+   
+         </div>
+       
+       </nav>
+       <script>
+           const burger=document.querySelector(".burger")
+           const navlinks=document.querySelector(".nav-links")
+           burger.addEventListener("click",()=>{
+               navlinks.classList.toggle("active");
+           })
+       </script>
+   
+</div>
+
+<div id="tuno">
+    <h1 id="h1">TIPOS DE VIOLENCIA</h1>
+</div>
+<section>
+    <article id="tipo1">
+        <img src="img/fisica.jpeg">
+        <h1>VIOLENCIA FISICA</h1>
+        <p>
+            Este tipo de violencia implica el uso de la fuerza física para causar daño a la víctima,
+            incluyendo golpes, patadas, estrangulamiento y cualquier otra acción que ponga en peligro la integridad
+            física de la persona afectada.
+        </p>
+    </article>
+    <article id="tipo2">
+        <img src="img/psicologica.jpeg">
+        <h1>VIOLENCIA PSICOLOGICA</h1>
+        <p>
+            La violencia psicológica se refiere a conductas que causan daño emocional y psicológico a la víctima, como
+            el acoso, la humillación, la intimidación, el control excesivo y el aislamiento social
+        </p>
+    </article>
+    <article id="tipo3">
+        <img src="img/sexual.jpeg">
+
+        <h1>VIOLENCIA SEXUAL</h1>
+        <p>
+            La violencia sexual implica cualquier acto sexual no consentido o coercitivo, incluyendo la violación, el
+            acoso sexual, la explotación sexual y cualquier forma de abuso sexual dentro de la relación de pareja.
+        </p>
+    </article>
+    <article id="tipo4">
+        <img src="img/economica.jpeg">
+        <h1>VIOLENCIA ECONOMICA</h1>
+        <p>
+            Este tipo de violencia se caracteriza por el control económico y financiero sobre la víctima, incluyendo la
+            privación de recursos económicos, la limitación del acceso al trabajo y la educación, y la manipulación
+            financiera para mantener el poder y el control sobre la víctima.
+        </p>
+    </article>
+
+</section>
+<div class="footer">
+    © Alvaro Guillermo Huanca Taco
+</div>
+
+   
+<body>
+
+</body>
+
+</html>

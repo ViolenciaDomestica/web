@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="inicio.css">
+</head>
+<body>
+	<div id="N">
+        <nav class="navbar">
+            <div id="cabezera">
+                
+                <div class="logo"></div>
+             
+            </div>
+           
+             <ul class="nav-links">
+                <li>
+                    <a href="index.html">INICIO</a>
+                </li> 
+                <li>
+                    <a href="introduccion.html">INTRODUCCION</a>
+                </li> 
+               <li>
+                   <a href="problematica.html">PROBLEMATICA</a>
+               </li>  
+               <li>
+                   <a href="estadistica.html">ESTADISTICA</a>
+               </li>
+               <li>
+                   <a href="tipos.html">TIPOS DE VIOLENCIA</a>
+               </li>
+               <li>
+                   <a href="soluciones.html">SOLUCIONES</a>
+               </li>
+             </ul>
+             <div class="burger">
+               <div class="line"></div>
+               <div class="line"></div>
+               <div class="line"></div>
+       
+             </div>
+           
+           </nav>
+           <script>
+               const burger=document.querySelector(".burger")
+               const navlinks=document.querySelector(".nav-links")
+               burger.addEventListener("click",()=>{
+                   navlinks.classList.toggle("active");
+               })
+           </script>
+       
+    </div>
+
+	<section class="banner">
+		<div class="banner-content">
+			<h1>VIOLENCIA DOMESTICA</h1>	
+		</div>
+	</section>
+</body>
+</html>
